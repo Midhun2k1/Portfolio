@@ -16,11 +16,38 @@ import emailjs from '@emailjs/browser';
 export const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     setIsSubmitting(true);
+
+    //email js 
+    const serviceId = 'service_yfqobn7';
+    const templateId = 'template_c0a93mh';
+    const publicKey = 'QncaxNtODNIDjFx3X';
+
+    const templateParams = {
+      from_name: name,
+      from_mail: email,
+      to_name: 'Midhun M',
+      message: message,
+    };
+
+    // Send the email using EmailJS
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('Email sent successfully!', response);
+        setName('');
+        setEmail('');
+        setMessage('');
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
 
     setTimeout(() => {
       toast({
