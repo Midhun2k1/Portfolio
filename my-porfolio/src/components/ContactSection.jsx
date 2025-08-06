@@ -151,6 +151,8 @@ export const ContactSection = () => {
                   id="name"
                   name="name"
                   required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                   placeholder="John Joe..."
                 />
@@ -168,6 +170,8 @@ export const ContactSection = () => {
                   type="email"
                   id="email"
                   name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                   placeholder="john@gmail.com"
@@ -185,6 +189,8 @@ export const ContactSection = () => {
                 <textarea
                   id="message"
                   name="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
                   placeholder="Hello, I'd like to talk about..."
