@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Address Book",
+    description: "A dynamic address book application with contact management built using JavaScript, ColdFusion, and MySQL.",
+    image: "/projects/addressBook.png",
+    tags: ["Javascript", "Coldfusion", "MySQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Midhun2k1/AddressBook.git",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "My Portfolio",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A sleek, responsive portfolio showcasing projects with interactive design and smooth user experience.",
+    image: "/projects/portfolio.png",
+    tags: ["React.js", "Tailwindcss"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Midhun2k1/Portfolio.git",
   },
   {
     id: 3,
     title: "E-commerce Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A full-featured e-commerce platform with secure authentication, seamless shopping, and integrated payments.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["Javascript", "Python", "PostgreSQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Midhun2k1/DemoProjects/tree/main/EcommerceProject",
   },
 ];
 
