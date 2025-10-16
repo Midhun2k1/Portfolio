@@ -24,11 +24,21 @@ const projects = [
     id: 3,
     title: "E-commerce Platform",
     description:
-      "A full-featured e-commerce platform with secure authentication, seamless shopping, and integrated payments.",
-    image: "/projects/project3.png",
+      "A featured e-commerce platform with secure authentication, seamless shopping, and integrated payments.",
+    image: "/projects/project5.png",
     tags: ["Javascript", "Python", "PostgreSQL"],
     demoUrl: "#",
     githubUrl: "https://github.com/Midhun2k1/DemoProjects/tree/main/EcommerceProject",
+  },
+  {
+    id: 4,
+    title: "Advanced E-commerce",
+    description:
+      "Created an e-commerce platform with login, mobile-friendly design, product search, cart, payments, filters, and order tracking. Built an admin panel to manage inventory easily.",
+    image: "/projects/project6.jpg",
+    tags: ["Javascript", "ColdFusion", "MySQL"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Midhun2k1/Ecommerce-Web-App---CF",
   },
 ];
 
