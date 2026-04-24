@@ -11,6 +11,8 @@ const skills = [
 
   // Backend
   { name: "Python", level: 90, category: "backend" },
+  { name: "FAstAPI", level: 90, category: "backend" },
+  { name: "SQLAlchemy", level: 90, category: "backend" },
   { name: "MySQL", level: 90, category: "backend" },
   { name: "PostgreSQL", level: 70, category: "backend" },
   { name: "Coldfusion", level: 95, category: "backend" },
@@ -19,6 +21,7 @@ const skills = [
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
   { name: "Cursor", level: 70, category: "tools" },
+  { name: "Postman", level: 100, category: "tools" },
   { name: "MS Excel", level: 85, category: "tools" },
 ];
 

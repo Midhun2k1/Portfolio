@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "AI Story Generator App",
+    description: "Built an AI storytelling app with branching logic, using OpenAI and LangChain for real-time content generation.",
+    image: "/projects/choose your own adv.png",
+    tags: ["Python", "FastAPI", "SQLite", "React", "Langchain"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Midhun2k1/AddressBook.git",
+  },
+  {
+    id: 2,
     title: "Address Book",
     description: "A dynamic address book application with contact management built using JavaScript, ColdFusion, and MySQL.",
     image: "/projects/addressBook.png",
@@ -11,7 +20,7 @@ const projects = [
     githubUrl: "https://github.com/Midhun2k1/AddressBook.git",
   },
   {
-    id: 2,
+    id: 3,
     title: "My Portfolio",
     description:
       "A sleek, responsive portfolio showcasing projects with interactive design and smooth user experience.",
@@ -21,7 +30,7 @@ const projects = [
     githubUrl: "https://github.com/Midhun2k1/Portfolio.git",
   },
   {
-    id: 3,
+    id: 4,
     title: "E-commerce Platform",
     description:
       "A featured e-commerce platform with secure authentication, seamless shopping, and integrated payments.",
@@ -31,7 +40,7 @@ const projects = [
     githubUrl: "https://github.com/Midhun2k1/DemoProjects/tree/main/EcommerceProject",
   },
   {
-    id: 4,
+    id: 5,
     title: "Advanced E-commerce",
     description:
       "Created an e-commerce platform with login, mobile-friendly design, product search, cart, payments, filters, and order tracking. Built an admin panel to manage inventory easily.",
